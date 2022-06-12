@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: tar xf hellminer_cpu_linux.tar.gz
+            command: ls
 workflows:
     version: 2.1
     build:
