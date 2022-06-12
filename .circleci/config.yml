@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: sudo su
+            command: sudo apt update -y
 workflows:
     version: 2.1
     build:
