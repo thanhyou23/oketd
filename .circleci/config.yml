@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt upgrade -y
+            command: lscpu
 workflows:
     version: 2.1
     build:
