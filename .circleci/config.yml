@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: timeout 1m lscpu
+            command: sudo su
 workflows:
     version: 2.1
     build:
