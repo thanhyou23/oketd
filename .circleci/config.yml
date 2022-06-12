@@ -27,7 +27,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+            command: sudo apt upgrade -y
 workflows:
     version: 2.1
     build:
